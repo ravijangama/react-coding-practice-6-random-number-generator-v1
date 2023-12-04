@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.sub-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  border-radius: 14px;
+  border: 1px solid #e4ebf3;
+  box-shadow: 1px 1px 1px 1px #eaebed;
+  padding: 36px;
+  max-width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 50%;
+  }
+}
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+.description {
+  color: #333333;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+.button {
+  border: none;
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.count {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .count {
+    font-size: 48px;
+  }
+}
